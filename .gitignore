@@ -1,0 +1,40 @@
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy / type checkers
+.mypy_cache/
+.dmypy.json
+
+# Repo disk cache (runtime-generated)
+repo_cache/
+
+# FAISS index dumps (if ever persisted)
+*.index
+*.faiss
+
+# OS
+.DS_Store
+Thumbs.db

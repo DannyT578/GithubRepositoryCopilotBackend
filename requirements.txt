@@ -1,0 +1,31 @@
+# Core web framework
+fastapi==0.135.1
+
+# Environment variable loading
+python-dotenv==1.1.0
+uvicorn[standard]==0.41.0
+
+# HTTP client
+aiohttp==3.13.3
+
+# GitHub repo ingestion
+gitingest==0.3.1
+
+# Vector search
+faiss-cpu==1.13.2
+
+# OpenAI SDK (also used internally by LiteLLM)
+openai==2.26.0
+
+# Unified LLM client (OpenAI, Anthropic, Google Gemini)
+litellm>=1.40.0
+
+# Pydantic (FastAPI dependency)
+pydantic==2.12.5
+
+# Numpy (FAISS requirement)
+numpy==2.4.3
+
+# Rate limiting
+slowapi>=0.1.9
+redis>=5.0.0
